@@ -1,13 +1,13 @@
 # reg_and_auth_with_jwt
 # регистрация
 api/v1/reg/ - 
-#  запрос
-#    POST:{
-#      "username":"YOUR_USERNAME",
-#      "password":"YOUR_PASSWORD",
-#      "email":"YOUR_EMAIL"
-#    }
-#  ответ
+  запрос
+    POST:{
+      "username":"YOUR_USERNAME",
+      "password":"YOUR_PASSWORD",
+      "email":"YOUR_EMAIL"
+    }
+  ответ
     STATUS=OK:{
       "status":"good",
       "user_id":"USER_REG_ID"
